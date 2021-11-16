@@ -1,0 +1,25 @@
+//program to find factorial of a number using return valueusing System;
+
+namespace return_values
+{
+    class Program
+    {
+       
+        static void Main(string[] args)
+        {
+            Console.WriteLine("enter number");
+            int num = Convert.ToInt32( Console.ReadLine());
+            int factorial = fact(num);
+            Console.WriteLine("factorial is" + factorial); 
+        }
+        static int fact(int n)
+        {
+            int i, f = 1;
+            for (i = 1; i <= n; i++)
+            {
+                f = f * i;
+            }
+            return f;
+        }
+    }
+}
