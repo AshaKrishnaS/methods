@@ -1,0 +1,17 @@
+using System;
+
+namespace parameterizedmethod
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            myMethod("Liam");
+            myMethod("Anja");
+        }
+        static void myMethod(string fname)
+        {
+            Console.WriteLine(fname + "Ref");
+        }
+    }
+}
