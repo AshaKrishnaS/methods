@@ -1,0 +1,20 @@
+//parameter with default value
+using System;
+
+namespace defaultparametervalue
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            myMethod("india");
+            myMethod("sweden");
+            myMethod();
+
+        }
+        static void myMethod(string country="norway")
+            {
+            Console.WriteLine(country);
+            }
+    }
+}
