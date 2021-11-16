@@ -1,4 +1,5 @@
-﻿using System;
+//simply calling a method﻿
+using System;
 
 namespace methods
 {
