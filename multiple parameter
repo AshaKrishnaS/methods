@@ -1,0 +1,19 @@
+//method with multiple parameter
+using System;
+
+namespace multipleparameter
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            myMethod("Liam", 5);
+            myMethod("hari", 10);
+            myMethod("jini", 9);
+        }
+        static void myMethod(string fname,int age)
+        {
+            Console.WriteLine(fname +  " is " + age);
+        }
+    }
+}
