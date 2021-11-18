@@ -1,0 +1,27 @@
+//method overloading
+using System;
+
+namespace method_overloading
+{
+    class Program
+    {
+        static int methOver(int x,int y)
+        {
+            return x + y;
+
+        }
+        static double methOver(double  x, double y)
+        {
+            return x + y;
+
+        }
+        static void Main(String[] args)
+        {
+            int res1 = methOver(3, 4);
+            double res2 = methOver(34.5 , 5);
+            Console.WriteLine("result1 is : " + res1);
+            Console.WriteLine("result2 is : " + res2);
+        }
+    }
+
+}
