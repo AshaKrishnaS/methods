@@ -1,0 +1,32 @@
+//method overriding
+using System;
+
+namespace methodoverriding
+{
+
+    class first
+    {
+        public virtual void overriding()
+        {
+            Console.WriteLine("this is the base class");
+        }
+    }
+    class second:first
+    {
+        public override void overriding()
+        {
+            Console.WriteLine("this is  a child class ");
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+           
+            first f = new first();
+            f.overriding();
+            second s = new second();
+            s.overriding();
+        }
+    }
+}
